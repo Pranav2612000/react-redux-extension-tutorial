@@ -57,8 +57,8 @@ LinkList.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  linkList: state.linkList,
-  //linkList: [], // For testing purposes change to linkList: state.linkList,' later 
+  //linkList: state.linkList,
+  linkList: [], // For testing purposes change to linkList: state.linkList,' later 
 });
 
 const mapDispatchToProps = {};

@@ -20,12 +20,12 @@ const NewLink = ({ addLink, notify }) => {
 
     if (!isValidURL(linkUrl)) {
       formIsValid = false;
-      errorMessage = 'Lütfen düzgün bir url giriniz';
+      errorMessage = 'Invalid URL';
     }
 
     if (!haveEnoughCharacters(linkName)) {
       formIsValid = false;
-      errorMessage = 'Lütfen boşluk harici en az 5 karakter giriniz.';
+      errorMessage = 'Invalid URL';
     }
 
     if (!formIsValid) {
